@@ -8,7 +8,7 @@
             "Branch":"main"
         },
         "GCP_test": {
-            "FaaSType": "GoogleCloud",
+            "FaaSTypess": "GoogleCloud",
             "Namespace": "nsf-20210119-renatof-420467",
             "Region": "us-central1",
             "Endpoint": "https://run.googleapis.com/v2/projects/",
