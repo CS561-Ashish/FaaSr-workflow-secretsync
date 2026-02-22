@@ -1,13 +1,13 @@
 {
     "ComputeServers": {
-        "GH": {
+        "GH_test": {
             "FaaSType": "GitHubActions",
             "UseSecretStore": true,
             "UserName": "Ashish-Ramrakhiani",
             "ActionRepoName": "FaaSr-workflow-public",
             "Branch":"main"
         },
-        "GCP": {
+        "GCP_test": {
             "FaaSType": "GoogleCloud",
             "Namespace": "nsf-20210119-renatof-420467",
             "Region": "us-central1",
@@ -19,7 +19,7 @@
             "Memory": 512,
             "TimeLimit": 3600
         },
-        "AWS": {
+        "AWS_test": {
             "FaaSType": "Lambda",
             "Region": "us-east-1",
             "UseSecretStore": true,
